@@ -1,0 +1,65 @@
+body{
+ background-color: #FFFDD0;
+ font-size: 16px;
+ padding-left: 20px;
+}
+h1{
+  font-size: 80px;
+  text-align: center;
+  color: #800000;
+}
+.recipes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.icon{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 18px;
+    border: 3px solid #800000;
+}
+.icon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}   
+h2{
+    font-size: 30px;
+    color: #800000;
+    text-align: left;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.ingredients{
+    list-style: none;
+    padding-left: 30px;
+    color: #003314;
+    list-style-type: disc;
+    font-size: medium;
+}
+ol{
+    padding-left: 30px;
+    color: #003314; 
+    font-size: medium;
+}
+p{
+    color: #003314;
+    font-size: medium;
+}   
+.hero{
+    border-radius: 15px;
+}
+.back{
+     color: #800000;
+}
+.back:hover{
+    color: #003314;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
